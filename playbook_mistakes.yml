@@ -23,7 +23,7 @@
       
   - name: copy index.html
     copy:
-      src: index.html
+      src: /files/index.html
       dest: /var/www/html/index.html
       
   - name: print rhel version
